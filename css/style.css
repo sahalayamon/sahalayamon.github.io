@@ -1,0 +1,97 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: azonix;
+}
+
+@font-face {
+	font-family: azonix;
+	src : url(../fonts/Azonix-1VB0.ttf)
+}
+
+body{
+	background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)) , url(../images/bg.jpg);
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+}
+
+.nav ul{
+	list-style-type: none;
+	background: transparent;
+	margin: 0px;
+	padding: 15px;
+	overflow: hidden;
+}
+
+.nav li{
+	float: left;
+	padding-right: 12px;
+}
+
+.nav a{
+	padding: 16px;
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	border: 2px solid #c64aff;
+	border-radius: 50px;
+}
+
+.nav a:hover{
+	background : #c64aff;
+	transition: .5s;
+}
+
+#active{
+	background : rgba(198, 74, 255, .3);
+}
+
+.name {
+	color: white;
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	transform: translatey(-50%);
+	text-align: center;
+	font-size: 100px;
+	font-family: azonix;
+}
+
+.abt {
+	color: white;
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	transform: translatey(-150%);
+	text-align: center;
+	font-size: 60px;
+	font-family: LETTER GOTHIC STD;
+}
+
+.abt-desc {
+	color: rgb(255, 255, 255);
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	transform: translatey(-40%);
+	text-align: center;
+	font-size: 30px;
+	font-family: LETTER GOTHIC STD;
+}
+
+.exp {
+	color: white;
+	width: 100%;
+	position: absolute;
+	top: 15%;
+	text-align: center;
+	font-size: 40px;
+	font-family: LETTER GOTHIC STD;
+}
+
+.project-box{
+	height: 100px;
+	width: 100px;
+	background-color: black;
+}

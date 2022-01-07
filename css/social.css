@@ -1,0 +1,19 @@
+.social a{
+	padding: 0;
+	float: right;
+	width: 20px;
+	height: 20px;
+	padding-right: 18px;
+	background: transparent;
+	border: none;
+}
+
+.social a:hover{
+	background: transparent;
+}
+
+.social-icon {
+	width: 30px;
+	margin: 0;
+	position: absolute;
+}
